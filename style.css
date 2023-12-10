@@ -1,0 +1,41 @@
+body {
+    color: white;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    margin: 0rem;
+    background-color: #BF4E4A;
+}
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+.label {
+    font-size: 0.5rem
+}
+.list {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+}
+.info {
+    text-align: center;
+    background-image: linear-gradient(to right,#2c2c2d,#2d2d2e,#0a0a0a);
+    padding: 15rem;
+
+}
+.name {
+    font-size: 3rem;
+}
+.stack {
+    font-size: 2rem;
+    color: #BF4E4A
+
+}
+.passion {
+    font-size: 1.5rem;
+}
+
+
