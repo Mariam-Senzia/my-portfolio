@@ -31,7 +31,13 @@
                 <div class="info">
                     <h1 class="name">Hello, I am <em>Mariam Senzia</em></h1>
                     <p class="stack">A Frontend focused Full Stack Developer.</p>
-                    <p class="passion">Turning ideas into real life products is my calling.</p>
+                    <p id="passion">Turning ideas into real life products is my calling.</p>
+                    <button onclick="change_text()">Click me</button>
+                    <script type="text/javascript">
+                        function change_text() {
+                            document.getElementById("passion").innerHTML="Your go to developer";
+                        }
+                    </script>
                 </div>
             </section>
             <!----------projects--------->
